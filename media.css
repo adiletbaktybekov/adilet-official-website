@@ -1,0 +1,996 @@
+@media (max-width: 1600px) {
+    header.home section.intro .intro-image svg {
+        transform: scale(1);
+    }
+
+    .container {
+        width: 100rem;
+    }
+
+    .nav-bar .container .logo img {
+        width: 10rem;
+    }
+
+    .nav-bar .container ul.links li a.link {
+        font-size: 2rem;
+    }
+
+    header.home section.intro .intro-text {
+        padding: 0 2rem;
+    }
+
+    header.home section.intro .intro-text h1,
+    header.home section.intro .intro-text h2 {
+        font-size: 4rem;
+    }
+
+    header.home section.intro .intro-text p {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    header.home section.intro .intro-image svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .section-title::before {
+        width: 12rem;
+        height: 0.3rem;
+        left: -15rem;
+    }
+
+    .section-title::after {
+        width: 12rem;
+        height: 0.3rem;
+        right: -15rem;
+    }
+
+    main.home #projects .works {
+        grid-gap: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    main.home #projects .works .work p {
+        margin-top: 2rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    main.home #skills .skills .grid {
+        grid-gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    main.home #skills .skills .skill {
+        width: 100%;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    main.home #work-with-me .title-text {
+        font-size: 1.5rem;
+    }
+
+    main.home #work-with-me .reasons {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 8rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 2rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 1.5rem;
+    }
+
+    main.home #contact .contacts {
+        margin-top: 1rem;
+    }
+
+    main.home #about .story {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    main.home #about .story .image {
+        flex: 200px;
+    }
+
+    main.home #about .story .image img {
+        width: 200px;
+        height: 231px;
+    }
+
+    main.home #about .story .text {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    a.button {
+        padding: 1rem 2rem;
+    }
+}
+@media (max-width: 1230px) {
+    .nav-bar .container ul.links li a.link {
+        font-size: 1.7rem;
+    }
+
+    main.home #skills .skills .skill {
+        height: 3.5rem;
+    }
+
+    main.home #skills .skills .skill .icon {
+        font-size: 2.2rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 1.7rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 1.3rem;
+    }
+
+    main.home #contact .contacts {
+        margin-top: 0;
+    }
+
+    main.home #contact .contacts .contact {
+        width: 6rem;
+        height: 6rem;
+        padding: 2rem;
+        margin: 0 1.5rem;
+    }
+
+    main.home #contact .contacts .contact i {
+        font-size: 3rem;
+    }
+
+    main.home #about .story {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    main.home #about .story .image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    main.home #about .story .text {
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 1200px) {
+    header.project section.overview {
+        height: 600px;
+    }
+
+    header.project section.overview .project {
+        margin-top: 3rem;
+    }
+
+    header.project section.overview .project .project-text {
+        font-size: 1.7rem;
+        margin-left: 2rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container {
+        text-align: center;
+    }
+
+    header.project section.overview .project .project-preview .image-container img {
+        width: 80%;
+    }
+
+    a.button {
+        font-size: 1.7rem;
+    }
+
+    main.project #about-project {
+        height: 650px;
+    }
+
+    main.project #about-project .technologies .used .lists .list {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1050px) {
+    .container {
+        max-width: 100rem;
+        width: inherit;
+    }
+
+    .gero-img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .nav-bar .container {
+        width: 100%;
+    }
+
+    .nav-bar .container .logo img {
+        width: 8rem;
+    }
+
+    .nav-bar .container ul.links {
+        flex: 2;
+    }
+
+    .nav-bar .container ul.links li a.link {
+        font-size: 1.5rem;
+    }
+
+    header.home section.intro .intro-text {
+        flex: 1;
+        padding-left: 5rem;
+    }
+
+    header.home section.intro .intro-text h1,
+    header.home section.intro .intro-text h2 {
+        font-size: 3rem;
+    }
+
+    header.home section.intro .intro-text p {
+        font-size: 1.5rem;
+    }
+
+    header.home section.intro .intro-image svg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    main.home .container {
+        width: 700px;
+    }
+
+    main.home #projects .works {
+        grid-gap: 2rem;
+    }
+
+    main.home #projects .works .work {
+        text-align: center;
+    }
+
+    main.home #projects .works .work .image {
+        display: inline-block;
+        width: 100%;
+    }
+
+    main.home #projects .works .work .image img {
+        width: 100%;
+        height: 120px;
+    }
+
+    main.home #projects .works .work .image .see .eye {
+        font-size: 4rem;
+    }
+
+    main.home #projects .works .work p {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    main.home #projects .works .work:hover {
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    main.home #projects .works .work:hover .see {
+        opacity: 1;
+    }
+
+    main.home #skills .skills {
+        margin-top: 1rem;
+    }
+
+    main.home #skills .skills .grid {
+        grid-gap: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    main.home #skills .skills .skill {
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    main.home #skills .skills .skill .icon {
+        font-size: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    main.home #work-with-me .title-text {
+        font-size: 1rem;
+    }
+
+    main.home #work-with-me .reasons {
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon {
+        margin-bottom: 1.5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 6rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 1rem;
+    }
+
+    main.home #contact .contacts {
+        margin-top: 0;
+    }
+
+    main.home #contact .contacts .contact {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    main.home #contact .contacts .contact i {
+        font-size: 2.5rem;
+    }
+
+    main.home #about .story {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    main.home #about .story .image {
+        flex: 150px;
+    }
+
+    main.home #about .story .image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    main.home #about .story .text {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 1050px) and (min-height: 800px) {
+    header.home {
+        height: 650px;
+        padding-top: 8rem;
+    }
+
+    .gero-img {
+        width: 215px;
+        height: 215px;
+    }
+
+
+    header.home .container {
+        height: 100%;
+    }
+
+    header.home section.intro {
+        height: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .nav-bar .container {
+        padding: 2rem 3rem;
+    }
+
+
+    .gero-img {
+        width: 205px;
+        height: 205px;
+    }
+
+
+    .nav-bar .container .logo img {
+        width: 8rem;
+    }
+
+    .nav-bar .container ul.links li a.link {
+        font-size: 1.5rem;
+        padding: 1rem 1rem;
+        white-space: nowrap;
+    }
+
+    header.home section.intro .intro-text {
+        padding-left: 3rem;
+    }
+
+    header.home section.intro .intro-text h1,
+    header.home section.intro .intro-text h2 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    main.home .container {
+        width: 500px;
+    }
+
+    main.home #projects .works .work .image img {
+        height: 80px;
+    }
+
+    main.home #projects .works .work .image .see .eye {
+        font-size: 3rem;
+    }
+
+    main.home #projects .works .work p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    main.home #skills .skills {
+        margin-top: 0;
+    }
+
+    main.home #skills .skills .grid {
+        grid-gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    main.home #skills .skills .skill {
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    main.home #skills .skills .skill .icon {
+        font-size: 1.5rem;
+    }
+
+    main.home #work-with-me .reasons {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    main.home #work-with-me .reasons .reason {
+        padding: 0 1rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon {
+        margin-bottom: 1.5rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 4rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 0.8rem;
+    }
+
+    main.home #contact .contacts {
+        margin-bottom: 3rem;
+    }
+
+    main.home #contact .contacts .contact {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    main.home #contact .contacts .contact i {
+        font-size: 2.2rem;
+    }
+
+    main.home #about .story .image {
+        flex: 150px;
+    }
+
+    main.home #about .story .image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    main.home #about .story .text {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+
+    .section-title::before {
+        width: 8rem;
+        height: 0.2rem;
+        left: -10rem;
+    }
+
+    .section-title::after {
+        width: 8rem;
+        height: 0.2rem;
+        right: -10rem;
+    }
+
+    header.project section.overview {
+        height: 650px;
+    }
+
+    header.project section.overview .project {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    header.project section.overview .project .project-text {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container {
+        margin-top: 3rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container img {
+        width: 70%;
+        padding: 0 1.5rem;
+    }
+
+    a.button {
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem;
+    }
+
+    main.project #about-project {
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+
+    main.project #about-project .technologies .used {
+        margin-bottom: 2rem;
+    }
+
+    main.project #about-project .technologies .used .lists .list {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 550px) {
+    .nav-bar {
+        position: relative;
+        width: 100%;
+    }
+
+    header.home section.intro .intro-text p {
+        font-size: 15px;
+    }
+
+    .gero-img {
+        width: 200px;
+        height: 200px;
+    }
+    header.home section.intro {
+        flex-direction: column;
+        height: 500px;
+        margin-top: 70px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+
+
+    .nav-bar .container {
+        position: relative;
+    }
+
+    .nav-bar .container .logo img {
+        width: 6rem;
+    }
+
+    .nav-bar .container ul.links {
+        padding-right: 0;
+    }
+
+    .nav-bar .container ul.links li a.link {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    header.home {
+        height: 500px;
+    }
+
+
+    header.home section.intro .intro-text {
+        margin-top: 2rem;
+        padding: 3rem;
+        width: 100%;
+    }
+
+    header.home section.intro .intro-text h1,
+    header.home section.intro .intro-text h2 {
+        font-size: 2rem;
+    }
+
+
+    header.home section.intro .intro-image {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    header.home section.intro .intro-image svg {
+        width: 90%;
+        height: 90%;
+        transform: scale(1);
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        padding: 3rem 0;
+    }
+
+    .section-title::before {
+        width: 3rem;
+        left: -4rem;
+    }
+
+    .section-title::after {
+        width: 3rem;
+        right: -4rem;
+    }
+
+    main.home .container {
+        width: 100%;
+    }
+
+    main.home #projects .works {
+        padding: 0 2rem;
+        grid-template-columns: 1fr;
+    }
+
+    main.home #projects .works .work {
+        margin: 1rem 0;
+    }
+
+    main.home #projects .works .work .image {
+        width: 60%;
+    }
+
+    main.home #projects .works .work .image img {
+        width: 100%;
+        height: 120px;
+    }
+
+    main.home #projects .works .work .image .see .eye {
+        font-size: 3rem;
+    }
+
+    main.home #skills .skills {
+        padding: 0 3rem;
+    }
+
+    main.home #skills .skills .grid-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main.home #skills .skills .skill {
+        height: 2.2rem;
+        font-size: 0.9rem;
+    }
+
+    main.home #skills .skills .skill .icon {
+        font-size: 1.3rem;
+    }
+
+    main.home #work-with-me .title-text {
+        font-size: 0.9rem;
+    }
+
+    main.home #work-with-me .reasons {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        padding: 0 3rem;
+    }
+
+    main.home #work-with-me .reasons .reason {
+        padding: 0 1rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon {
+        margin-bottom: 1rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 3rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 0.6rem;
+    }
+
+    main.home #contact .contacts {
+        margin-bottom: 3rem;
+    }
+
+    main.home #contact .contacts .contact {
+        width: 3rem;
+        height: 3rem;
+        padding: 1.5rem;
+    }
+
+    main.home #contact .contacts .contact i {
+        font-size: 1.8rem;
+    }
+
+    main.home #about .story {
+        justify-content: space-around;
+        padding: 0 3rem;
+    }
+
+    main.home #about .story .text {
+        font-size: 1.1rem;
+        margin-left: 2rem;
+    }
+
+    footer {
+        height: 3rem;
+        font-size: 0.8rem;
+    }
+
+    header.project section.overview {
+        height: 100%;
+    }
+
+    header.project section.overview .project {
+        margin-top: 2rem;
+    }
+
+    header.project section.overview .project .project-text {
+        font-size: 1.2rem;
+        border-left: 1px solid #e06a27;
+    }
+
+    header.project section.overview .project .project-preview {
+        padding-bottom: 3rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container {
+        margin-top: 3rem;
+        height: 170px;
+    }
+
+    header.project section.overview .project .project-preview .image-container img {
+        width: 80%;
+        padding: 0 1.5rem;
+    }
+
+    main.project #about-project .technologies .used .lists .list {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 450px) {
+    .nav-bar .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: auto;
+        padding: 2rem 2rem;
+    }
+
+    .gero-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-bar .container .burger {
+        display: block;
+    }
+
+    header.home {
+        width: 100%;
+        padding-top: 20rem;
+        height: 812px;
+    }
+
+    .nav-bar .container ul.links {
+        flex-direction: column;
+        height: 100vh;
+        width: 200px;
+        display: flex;
+        position: fixed;
+        padding-top: 8rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 0;
+        right: 0;
+        transform: translateX(200px);
+    }
+
+    .nav-bar .container ul.links li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-bar .container ul.links li a.link {
+        text-align: left;
+        width: 100%;
+        font-size: 1.7rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .nav-bar .container ul.links li:hover::after {
+        display: none;
+        width: 0;
+        left: 0;
+    }
+
+
+    header.home section.intro .intro-image {
+        margin-top: 2rem;
+    }
+
+    main.home #projects .works .work:hover {
+        transform: scale(1);
+    }
+
+    main.home #projects .works .work:hover .see {
+        opacity: 0;
+    }
+
+    main.home #contact .contacts .contact:hover {
+        transform: scale(1);
+    }
+
+    main.home #about .story {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main.home #about .story .image {
+        text-align: center;
+    }
+
+    main.home #about .story .image .myName {
+        margin-bottom: 3rem;
+    }
+
+    header.project section.overview {
+        padding-top: 6rem;
+    }
+
+    header.project section.overview .project .project-text {
+        margin-bottom: 2rem;
+    }
+
+    header.project section.overview .project .project-preview {
+        padding-bottom: 3rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container {
+        margin-top: 3rem;
+        height: 150px;
+        margin-bottom: 4rem;
+    }
+
+    header.project section.overview .project .project-preview .image-container img {
+        width: 95%;
+    }
+
+    a.button {
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+
+    main.project #about-project .technologies {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    main.project #about-project .technologies .used {
+        margin-left: 0;
+    }
+
+    main.project #about-project .technologies .used .lists .list {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 325px) {
+    header.home {
+        padding-top: 5rem;
+    }
+
+    .gero-img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    main.home #skills .skills {
+        padding: 0 3rem;
+    }
+
+    main.home #skills .skills .grid-3,
+    main.home #skills .skills .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    main.home #skills .skills .skill {
+        height: 3rem;
+        font-size: 0.8rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    main.home #skills .skills .skill .icon {
+        font-size: 1.3rem;
+    }
+
+    main.home #work-with-me .title-text {
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    main.home #work-with-me .reasons {
+        flex-direction: column;
+    }
+
+    main.home #work-with-me .reasons .reason {
+        padding: 2rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon {
+        margin-bottom: 1rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-icon i {
+        font-size: 3rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-title {
+        font-size: 1.2rem;
+    }
+
+    main.home #work-with-me .reasons .reason .reason-text {
+        font-size: 0.8rem;
+    }
+}
