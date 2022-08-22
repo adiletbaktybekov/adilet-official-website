@@ -505,42 +505,35 @@ main.home #about .askar {
 }
 
 main.home #about .anim-about {
-    opacity: 0;
+
 }
 
 main.home #about .story {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-top: 4rem;
     margin-bottom: 5rem;
 }
 
-main.home #about .story .image {
-    flex: 300px;
-}
-
-main.home #about .story .image img {
-    width: 300px;
+main.home #about .story  img {
+    width: 350px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 10px;
     object-fit: cover;
+    margin: 30px;
     display: inline-block;
     text-align: center;
-}
-
-main.home #about .story .image .myName {
-    text-align: center;
-    margin-top: 1rem;
-    color: red;
-    font-size: 1.7rem;
-    font-weight: normal;
 }
 
 main.home #about .story .text {
     color: #fff;
     font-size: 2.5rem;
-    margin-left: 6rem;
+    /*margin-left: 6rem;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 main.home #about .story .text p {
