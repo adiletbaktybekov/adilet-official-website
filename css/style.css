@@ -2,21 +2,21 @@ html {
     font-size: 10px;
 }
 
-body.light-mode {
-    background: white;
-
-}
-body.light-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {
-    color: black;
-}
-
-body.dark-mode  {
-    background: black;
-
-}
-body.dark-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {
-    color: white;
-}
+/*body.light-mode {*/
+/*    background: white;*/
+/**/
+/*}*/
+/*body.light-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {*/
+/*    color: black;*/
+/*}*/
+/**/
+/*body.dark-mode  {*/
+/*    background: black;*/
+/**/
+/*}*/
+/*body.dark-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {*/
+/*    color: white;*/
+/*}*/
 
 .nav-wrapper{
     background: #000;
@@ -177,8 +177,9 @@ body {
 
 header.home {
     color: red;
-    background: url("../images/IMAGE 2022-08-21 17:10:58.jpg") no-repeat center/cover fixed;
+    background: url("../images/abstract-black-stripes-diagonal-background-free-vector.webp") no-repeat center/cover fixed;
     height: 100vh;
+    /*background: #000;*/
     width: 100%;
 }
 
