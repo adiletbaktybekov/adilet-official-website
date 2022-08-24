@@ -2,63 +2,35 @@ html {
     font-size: 10px;
 }
 
-/*input[type="checkbox"] {*/
-/*    -webkit-appearance: none;*/
-/*    visibility: hidden;*/
-/*    display: none;*/
-/*}*/
+body.light-mode {
+    background: white;
 
-/*.check {*/
-/*    position: relative;*/
-/*    display: block;*/
-/*    width: 40px;*/
-/*    height: 20px;*/
-/*    background: white;*/
-/*    cursor: pointer;*/
-/*    border-radius: 20px;*/
-/*    overflow: hidden;*/
-/*    transition: ease-in 0.5s;*/
-/*}*/
+}
+body.light-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {
+    color: black;
+}
 
-/*input[type="checkbox"]:checked ~ .check {*/
-/*    background:red;*/
-/*    box-shadow: 0 0 0 1200px ;*/
-/*}*/
+body.dark-mode  {
+    background: black;
 
-/*.check:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: 2px;*/
-/*    left: 2px;*/
-/*    background: white;*/
-/*    width: 16px;*/
-/*    height: 16px;*/
-/*    border-radius: 50%;*/
-/*    transition: 0.5s;*/
-/*}*/
+}
+body.dark-mode h1,h2,p,a,li,h3,h4,h5,h6,ul,.skill,.section-title,footer {
+    color: white;
+}
 
+.nav-wrapper{
+    background: #000;
+}
 
-/*input[type="checkbox"]:checked ~ .check:before {*/
-/*    transform: translateX(-50px);*/
-/*}*/
+::-moz-selection {
+    background-color: red;
+    color: #fff;
+}
 
-/*.check:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: 2px;*/
-/*    right: 2px;*/
-/*    background: red;*/
-/*    width: 16px;*/
-/*    height: 16px;*/
-/*    border-radius: 50%;*/
-/*    transition: 0.5s;*/
-/*    transform: translateX(50px);*/
-/*}*/
-
-
-/*input[type="checkbox"]:checked ~ .check:before {*/
-/*    transform: translateX(0);*/
-/*}*/
+::selection {
+    background-color: red;
+    color: #fff;
+}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -364,7 +336,8 @@ main.home #projects .works .work .image .see {
 
 main.home #projects .works .work .image .see .eye {
     font-size: 5rem;
-    color: white;}
+    color: white;
+}
 
 main.home #projects .works .work p {
     margin-top: 2rem;
@@ -408,6 +381,7 @@ main.home #skills .skills .grid {
     grid-gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
 main.home #skills .skills .grid-3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -425,33 +399,37 @@ main.home #skills .skills .skill {
     height: 6rem;
     background-color: white;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     color: black;
-    align-items:center;
-     font-size: 2rem;
+    align-items: center;
+    font-size: 2rem;
     font-weight: 600;
     border-radius: 5px;
 }
+
 .skill {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 10px;
     font-weight: 600;
     border-radius: 5px;
     margin-bottom: 2rem;
 }
+
 main.home #skills .skills .skill .icon {
     font-size: 3rem;
     color: red;
     margin-left: 1rem;
 }
+
 .skills .skill .icon {
     font-size: 3rem;
     color: red;
     margin-left: 1rem;
 }
+
 main.home #contact {
     color: #fff;
     width: 100%;
@@ -520,7 +498,7 @@ main.home #about .story {
     margin-bottom: 5rem;
 }
 
-main.home #about .story  img {
+main.home #about .story img {
     width: 350px;
     height: 300px;
     border-radius: 10px;
@@ -680,6 +658,6 @@ main.project #about-project .technologies .used .lists .list {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: black;
     z-index: 2;
 }
